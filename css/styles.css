@@ -28,8 +28,8 @@ body{
       overflow-x: hidden;*/
 }
 
-.image {
-      position: relative;
+img {
+      display: block;
       margin: auto;
       max-width: 100%;
       height: auto;
