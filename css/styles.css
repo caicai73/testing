@@ -21,8 +21,12 @@ body{
       color: white;*/
       padding-top: 6%;
       box-sizing: border-box;
-      overflow-y: auto;
-      overflow-x: hidden;
+      min-width: 700px;
+      max-width: 830px;
+      position: relative;
+      margin: auto;
+      /*overflow-y: auto;
+      overflow-x: hidden;*/
 }
 
 .image {
