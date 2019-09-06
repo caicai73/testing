@@ -20,8 +20,8 @@ body{
       /*background-color: #1d539d;
       color: white;*/
       box-sizing: border-box;
-      min-width: 700px;
-      max-width: 830px;
+      max-width: 700px;
+      /*max-width: 830px;*/
       position: relative;
       margin: auto;
       /*overflow-y: auto;
