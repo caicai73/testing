@@ -29,11 +29,10 @@ body{
 }
 
 .image {
-      max-width: 830px;
-      max-height: 230px;
+      height: 230px;
       padding-bottom: 50px;
       position: relative;
-      margin: auto;
+      margin: 60px 0 60px;
 }
 
 .content {
