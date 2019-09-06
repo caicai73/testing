@@ -29,6 +29,7 @@ body{
 }
 
 .image {
+      width: 700px;
       height: 230px;
       padding-bottom: 50px;
       /*margin: auto;*/
