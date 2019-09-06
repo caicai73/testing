@@ -4,9 +4,9 @@ html {
 }
       
 body{
-      min-height: 1000px;
-      padding-top: 20px;
-      margin-bottom: 60px;
+      min-height: 900px;
+      padding-top: 10px;
+      margin-bottom: 40px;
 }
 
 .basicFontStyle {
