@@ -31,6 +31,7 @@ body{
 .image {
       position: relative;
       margin: auto;
+      max-width: 700px;
 }
 
 .content {
