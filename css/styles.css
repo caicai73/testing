@@ -24,8 +24,8 @@ body{
       max-width: 830px;
       position: relative;
       margin: auto;
-      /*overflow-y: auto;
-      overflow-x: hidden;*/
+      overflow-y: auto;
+      /*overflow-x: hidden;*/
 }
 
 .image {
