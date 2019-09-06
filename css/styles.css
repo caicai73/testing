@@ -4,3 +4,10 @@ html {
 
 }
 
+.image {
+  width: 1200px;
+  height: 250px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
