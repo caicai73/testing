@@ -31,7 +31,7 @@ body{
 .image {
       height: 230px;
       padding-bottom: 50px;
-      margin: auto;
+      /*margin: auto;*/
 }
 
 .content {
