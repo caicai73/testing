@@ -10,6 +10,17 @@ html,
             margin-right:100px;
       }
       
+      .main-container {
+            height: 100%;
+            width: 100%;
+            background-color: #1d539d;
+            color: white;
+            padding-top: 6%;
+            box-sizing: border-box;
+            overflow-y: auto;
+            overflow-x: hidden;
+      }
+
       .image {
             height: 250px;
             padding-bottom: 50px;
