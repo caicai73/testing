@@ -30,9 +30,9 @@ body{
 
 .image {
       width: 100%;
-      height: 230px;
-      padding-bottom: 50px;
-      /*margin: auto;*/
+      height: 100%;
+      position: relative;
+      margin: auto;
 }
 
 .content {
