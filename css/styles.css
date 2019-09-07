@@ -43,21 +43,21 @@ img {
 
 /* Responsive Columns */
 /* Create two equal columns that floats next to each other */
-.column {
+/*.column {
   float: left;
   width: 50%;
   padding: 10px;
 }
 
 /* Clear floats after the columns */
-.row:after {
+/*.row:after {
   content: "";
   display: table;
   clear: both;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 200px) {
+/*@media screen and (max-width: 200px) {
   .column {
     width: 100%;
   }
@@ -65,7 +65,7 @@ img {
 
 .row {
       padding:0;
-}
+}*/
 
 /*.content {
       box-sizing: border-box;
@@ -84,21 +84,21 @@ img {
       margin: 15px;
 }
 
-.roww {
+.row {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       width: 100%
 }
 
-.columnn {
+.column {
       display: flex;
       flex-direction: column;
       flex-basis: 100%;
       flex: 1;
 }
 
-.double-columnn {
+.double-column {
       display: flex;
       flex-direction: column;
       flex-basis: 100%;
@@ -114,11 +114,11 @@ img {
 }
 
 @media screen and (min-width: 600px) {
-      .columnn {
+      .column {
             flex: 1
       }
   
-      .double-columnn {
+      .double-column {
             flex: 2
       }
 }
