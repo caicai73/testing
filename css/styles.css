@@ -75,6 +75,15 @@ img {
       margin: auto;
 }*/
 
+
+/*=========*/
+/* FLEXBOX */
+/*=========*/
+
+.section1 {
+      margin: 15px;
+}
+
 .roww {
       display: flex;
       flex-direction: row;
@@ -87,4 +96,12 @@ img {
       flex-direction: column;
       flex-basis: 100%;
       flex: 1;
+}
+
+.leftc {
+      background-color: pink;
+}
+
+.rightc {
+      background-color: grey;     
 }
