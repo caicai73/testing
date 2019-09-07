@@ -107,7 +107,7 @@ img {
 }
 
 @media screen and (min-width: 800px) {
-      .columnn {
-         flex: 1;     
+      .column {
+         flex: 1  
       }
 }
