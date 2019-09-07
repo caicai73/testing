@@ -54,6 +54,9 @@ img {
   }
 }
 
+.row {
+      padding:0;
+}
 
 /*.content {
       box-sizing: border-box;
