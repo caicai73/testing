@@ -106,7 +106,7 @@ img {
       background-color: grey;     
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 500px) {
       .columnn {
          flex: 1     
       }
