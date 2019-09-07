@@ -105,3 +105,9 @@ img {
 .rightc {
       background-color: grey;     
 }
+
+@media screen and (min-width: 800px) {
+      .columnn {
+         flex: 1     
+      }
+}
