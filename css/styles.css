@@ -74,3 +74,17 @@ img {
       position: relative;
       margin: auto;
 }*/
+
+.roww {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%
+}
+
+.columnn {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%;
+      flex: 1;
+}
