@@ -50,14 +50,14 @@ img {
 }
 
 /* Clear floats after the columns */
-/*.row:after {
+.row:after {
   content: "";
   display: table;
   clear: both;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-/*@media screen and (max-width: 200px) {
+@media screen and (max-width: 200px) {
   .column {
     width: 100%;
   }
@@ -65,15 +65,15 @@ img {
 
 .row {
       padding:0;
-}*/
+}
 
-/*.content {
+.content {
       box-sizing: border-box;
       min-width: 700px;
       max-width: 830px;
       position: relative;
       margin: auto;
-}*/
+}
 
 
 /*=========*/
@@ -121,8 +121,8 @@ img {
       .double-column {
             flex: 2
       }
-}*/
-
+}
+/*
 .some-page-wrapper {
   margin: 15px;
   background-color: red;
@@ -160,4 +160,4 @@ img {
   .double-column {
     flex: 2
   }
-}
+}*/
