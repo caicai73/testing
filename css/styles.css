@@ -98,6 +98,13 @@ img {
       flex: 1;
 }
 
+.double-columnn {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%;
+      flex: 2;     
+}
+
 .leftc {
       background-color: pink;
 }
@@ -106,8 +113,12 @@ img {
       background-color: grey;     
 }
 
-@media screen and (max-width: 800px) {
-  .columnn {
-    flex: 1
-  }
+@media screen and (min-width: 600px) {
+      .columnn {
+            flex: 1
+      }
+  
+      .double-columnn {
+            flex: 2
+      }
 }
