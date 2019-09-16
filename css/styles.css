@@ -35,8 +35,11 @@ body{
       /*width: 100%;*/
       max-width: 1000px;
       box-sizing: border-box;
+      margin-left: auto;
+      margin-right: auto;
       /*position: relative;
       margin: auto;*/
+      
 }
 
 .footer {
