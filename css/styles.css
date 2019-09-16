@@ -20,7 +20,7 @@ html {
       
 body{
       min-height: 900px;
-      max-height: auto;
+      max-height: 100%;
       max-width: 1000px;
       position: relative;
       margin: auto;
