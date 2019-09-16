@@ -20,6 +20,7 @@ body{
       max-width: 1000px;
       position: relative;
       margin: auto;
+      background-color: #ABABAB;
 }
 
 .basicFontStyle {
@@ -31,6 +32,7 @@ body{
       height: 100%;
       width: 100%;
       box-sizing: border-box;
+      background-color: white;
       /*max-width: 1000px;
       position: relative;
       margin: auto;*/
