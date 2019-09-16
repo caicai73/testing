@@ -19,9 +19,7 @@ html {
 }
       
 body{
-      /*min-height: 900px;*/
       min-height: 700px;
-      /*max-width: 1000px;*/
       position: relative;
       margin: auto;
       margin-bottom: 50px;
@@ -35,10 +33,9 @@ body{
 .main-container {
       height: 100%;
       /*width: 100%;*/
-      max-width: 2000px;
+      max-width: 1000px;
       box-sizing: border-box;
-      /*max-width: 1000px;
-      position: relative;
+      /*position: relative;
       margin: auto;*/
 }
 
