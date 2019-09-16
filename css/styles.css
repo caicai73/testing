@@ -2,7 +2,10 @@
 =      WEBSITE COLOURS     =
 ============================
 =       TEXT COLORS:       =   
-=      Grey #959595        =
+=       Grey #959595       =
+=                          =
+=     BACKGROUND COLORS    =
+=       Grey #FAFAFA       =
 ==========================*/
 
 
@@ -20,7 +23,7 @@ body{
       max-width: 1000px;
       position: relative;
       margin: auto;
-      background-color: #ABABAB;
+      background-color: #FAFAFA;
 }
 
 .basicFontStyle {
