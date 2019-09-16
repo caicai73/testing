@@ -24,7 +24,6 @@ body{
       /*max-width: 1000px;*/
       position: relative;
       margin: auto;
-      background-color: #FAFAFA;
       margin-bottom: 50px;
 }
 
@@ -38,7 +37,6 @@ body{
       /*width: 100%;*/
       max-width: 2000px;
       box-sizing: border-box;
-      background-color: white;
       /*max-width: 1000px;
       position: relative;
       margin: auto;*/
