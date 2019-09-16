@@ -1,9 +1,9 @@
 /*==========================
-      WEBSITE COLOURS     
+=      WEBSITE COLOURS     =
 ============================
-    TEXT COLORS: 
-      Grey #959595   
-============================*/
+=       TEXT COLORS:       =   
+=      Grey #959595        =
+==========================*/
 
 
 /*==============*/
@@ -17,8 +17,9 @@ html {
       
 body{
       min-height: 900px;
-      /*padding-top: 10px;*/
-      /*margin-bottom: 10px;*/
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
 }
 
 .basicFontStyle {
@@ -30,9 +31,9 @@ body{
       height: 100%;
       width: 100%;
       box-sizing: border-box;
-      max-width: 1000px;
+      /*max-width: 1000px;
       position: relative;
-      margin: auto;
+      margin: auto;*/
 }
 
 img {
