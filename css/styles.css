@@ -65,7 +65,7 @@ img {
 }
 
 .right {
-      width: 60%;
+      width: 69%;
 }
 
 /* Clear floats after the columns */
@@ -84,7 +84,7 @@ img {
 
 .row {
       padding:0;
-      margin: 0px 40px;
+      margin: 0;
 }
 
 /*.content {
