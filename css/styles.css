@@ -50,7 +50,7 @@ img {
 /* Create two equal columns that floats next to each other */
 .column {
   /*float: left;*/
-  width: 50%;
+  width: 40%;
   padding: 10px;
   margin: 0;
 }
