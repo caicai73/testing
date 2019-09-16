@@ -56,16 +56,16 @@ img {
 /* Create two equal columns that floats next to each other */
 .column {
       float: left;
-      padding: 10px;
       margin: 0;
 }
 
 .left {
-      width: 30%;  
+      width: 30%;
+      margin: 0 50px;
 }
 
 .right {
-      width: 65%;
+      width: 67%;
 }
 
 /* Clear floats after the columns */
