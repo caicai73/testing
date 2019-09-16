@@ -21,7 +21,7 @@ html {
 body{
       /*min-height: 900px;*/
       min-height: 700px;
-      max-width: 1000px;
+      /*max-width: 1000px;*/
       position: relative;
       margin: auto;
       background-color: #FAFAFA;
