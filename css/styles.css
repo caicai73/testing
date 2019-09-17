@@ -40,11 +40,12 @@ html, body {
       font-size: 15px;
 }
 
-#project {
+#projects {
       font-family: 'Open Sans', sans-serif;
       color: white;
       background: black;
       text-align: center;
+      padding-top: 20px;
 }
 
 .wrapper {
