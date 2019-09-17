@@ -38,9 +38,15 @@ html, body {
       font-size: 15px;
 }
 
-#wrapper {
+.wrapper {
 	min-height:100%;
 	position: relative;
+	margin-bottom: -60px;
+}
+
+.wrapper:after {
+	content: "";
+	display: block;
 }
 
 .main-container {
@@ -106,7 +112,11 @@ img {
 /* FOOTER */
 /*========*/
 
-.footer {
+.stickyfooter, .wrapper:after {
+	height: 60px;	
+}
+
+.stickyfooter {
     position: absolute;
     width: 100%;
 	clear: both;
@@ -118,6 +128,8 @@ img {
     height: 40px; /* REMEMBER height = padding-bottom */
     background: #333;
 }
+
+
 /*
 .footer {
       display: block;
