@@ -73,10 +73,6 @@ img {
       display: none;	
 }
 
-.content1 {
-      color: #959595    
-}
-
 /** Responsive Columns **/
 /* Create two columns that float next to each other */
 .column {
@@ -104,9 +100,9 @@ img {
 	    margin-left: auto; margin-right: auto;
       }
 
-      .right { display: none; }
+      #cont1 { display: none; }
 	
-      .left2 { display: none; }
+      #cont2 { display: none; }
 	
       .right2 {
      	    width: 100%;
@@ -145,6 +141,11 @@ img {
 .right {
       width: 45%;
       padding: 12px 24px!important;
+}
+
+.content1 {
+      color: #959595;
+      padding-left: 30px;
 }
 
 /* Intro */
