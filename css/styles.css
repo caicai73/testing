@@ -104,6 +104,13 @@ img {
 	
       .left2 { display: none; }
 	
+      .right2 {
+     	    width: 100%;
+	    position: relative;
+	    float: none;
+	    margin-left: auto; margin-right: auto;
+      }
+	
       .mobimg {
 	    display: block;
 	    width: 100%;
