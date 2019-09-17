@@ -109,9 +109,9 @@ img {
       .right2 {
      	    width: 100%;
 	    max-width: 500px;
-	    position: relative;
 	    float: none;
-	    margin-left: auto; margin-right: auto;
+	    padding-left: 25px;
+	    padding-right: 25px;
       }
 	
       .mobimg {
