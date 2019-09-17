@@ -108,10 +108,12 @@ img {
 	
       .right2 {
      	    width: 100%;
-	    max-width: 500px;
+	    max-width: 600px;
 	    float: none;
-	    padding-left: 25px;
-	    padding-right: 25px;
+	    padding-left: 40px;
+	    padding-right: 40px;
+	    position: relative;
+	    margin-left: auto; margin-right: auto;
       }
 	
       .mobimg {
