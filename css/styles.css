@@ -104,23 +104,23 @@ img {
 /** Column sets **/
 /* Hello */
 .left {
-      width: 30%;
+      width: 45%;
       padding: 12px 24px!important;
 }
 
 .right {
-      width: 60%;
+      width: 45%;
       padding: 12px 24px!important;
 }
 
 /* Intro */
 .left2 {
-      width: 40%;
+      width: 45%;
       padding: 12px 24px!important;
 }
 
 .right2 {
-      width: 50%;
+      width: 45%;
       padding: 12px 24px!important;
 }
 
