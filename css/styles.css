@@ -96,10 +96,15 @@ img {
 /*========*/
 
 footer {
+   padding-top: 1em;
+   padding-bottom: 1em
+}
+/*
+footer {
    position: absolute;
    bottom: 0;
    width: 100%;
-   height: 40px;   /* Height of the footer */
+   height: 40px;   /* Height of the footer 
    background-color: black;
    color: white;
    text-align: center;
@@ -116,7 +121,7 @@ body > .container {
 footer > .container {
     padding-right: 15px;
     padding-left: 15px;
-}
+}*/
 
 
 /*.content {
