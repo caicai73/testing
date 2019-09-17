@@ -63,6 +63,10 @@ html, body {
 	padding-bottom: 40px;
 }
 
+div {
+	white-space: 0;	
+}
+
 /** Images **/
 
 img {
