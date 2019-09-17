@@ -117,16 +117,17 @@ img {
 }
 
 .stickyfooter {
-    position: absolute;
-    width: 100%;
+    	position: absolute;
+   	width: 100%;
 	clear: both;
-    bottom: 0;
+    	bottom: 0;
 	padding: 0;
-    margin: 0;
-    /* ATTENTION! The following elements below 
-    can be set to whatever your heart desires */
-    height: 40px; /* REMEMBER height = padding-bottom */
-    background: black;
+    	margin: 0;
+    	/* ATTENTION! The following elements below 
+    	can be set to whatever your heart desires */
+    	height: 100px; /* REMEMBER height = padding-bottom */
+    	background: black;
+    	color: white;
 }
 
 
