@@ -67,7 +67,7 @@ img {
       vertical-align: middle;
 }
 
-#mobimg {
+.mobimg {
       display: none;	
 }
 
@@ -106,7 +106,7 @@ img {
       	    display: none;
       }
 	
-      #mobimg {
+      .mobimg {
 	    display: block;
 	    width: 100%;
 	    float: none;
