@@ -118,7 +118,7 @@ img {
       .title {
 	    position: relative;
             margin-left: auto; margin-right: auto;
-	    padding: 0;
+	    padding-top: 5px;
       }
 	
       .content1 {
