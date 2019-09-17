@@ -40,13 +40,8 @@ html, body {
       font-size: 15px;
 }
 
-#projects {
+.openSans {
       font-family: 'Open Sans', sans-serif;
-      color: white;
-      background: black;
-      text-align: center;
-      padding-top: 20px;
-      width: 
 }
 
 .wrapper {
@@ -170,6 +165,14 @@ img {
 
 .content2 {
       color: #959595;
+}
+
+/* Projects */
+#projects {
+      color: white;
+      background: black;
+      text-align: center;
+      padding-top: 20px;
 }
 
 
