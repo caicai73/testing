@@ -142,7 +142,11 @@ img {
 
 .content1 {
       color: #959595;
-      padding-left: 30px;
+      padding-left: 50px;
+}
+
+.hello {
+      padding-left: 50px;    
 }
 
 /* Intro */
