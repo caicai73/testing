@@ -38,6 +38,11 @@ html, body {
       font-size: 15px;
 }
 
+#wrapper {
+	min-height:100%;
+	position: relative;
+}
+
 .main-container {
       min-height: 100%;
       /*width: 100%;*/
