@@ -95,7 +95,7 @@ img {
 /* FOOTER */
 /*========*/
 
-footer {
+.footer {
       display: block;
       position: absolute;
       bottom: 0;
@@ -107,11 +107,12 @@ footer {
       color: white;
       text-align: center;
       padding-top: 1em;
-      padding-bottom: 1em
+      padding-bottom: 1em;
 }
 
 .stickyfoot {
       position: relative;
+      display: block;
       height: 100%;
       bottom: 0;
       margin: auto;
