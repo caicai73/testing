@@ -43,6 +43,7 @@ html, body {
 #project {
       font-family: 'Open Sans', sans-serif;
       color: white;
+      background: black;
 }
 
 .wrapper {
