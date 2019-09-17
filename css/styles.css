@@ -41,7 +41,7 @@ html, body {
 .wrapper {
 	min-height:100%;
 	position: relative;
-	margin-bottom: -60px;
+	margin-bottom: -100px;
 }
 
 .wrapper:after {
