@@ -57,12 +57,18 @@ html, body {
 	padding-bottom: 40px;
 }
 
+/** Images **/
+
 img {
       display: block;
       margin: auto;
       max-width: 100%;
       height: auto;
       vertical-align: middle;
+}
+
+#mobimg {
+      display: none;	
 }
 
 .content1 {
@@ -98,6 +104,10 @@ img {
 
       .right {
       	    display: none;
+      }
+	
+      #mobimg {
+	    display: block;      
       }
 }
 
