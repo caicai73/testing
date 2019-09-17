@@ -28,8 +28,8 @@ body{
 */
 
 html, body {
-      margin: 0;
-      padding: 0;
+      margin: 0; 
+      padding: 0;  
       height: 100%;
 }
 
@@ -39,9 +39,8 @@ html, body {
 }
 
 .wrapper {
-	min-height:100%;
-	position: relative;
-	/*margin-bottom: -100px;*/
+      min-height:100%; 
+      position: relative;
 }
 
 .wrapper:after {
@@ -50,15 +49,12 @@ html, body {
 }
 
 .main-container {
-      min-height: 100%;
-      /*width: 100%;*/
-      max-width: 1000px;
-      box-sizing: border-box;
-      margin-left: auto;
-      margin-right: auto;
-      position: relative;
-      padding-bottom: 40px;
-      /*margin: auto;*/
+	position: relative;
+      	min-height: 100%;
+      	max-width: 1000px;
+	box-sizing: border-box;
+	margin-left: auto; margin-right: auto;
+	padding-bottom: 40px;
 }
 
 img {
@@ -73,13 +69,29 @@ img {
       color: #959595    
 }
 
-/* Responsive Columns */
-/* Create two equal columns that floats next to each other */
+/** Responsive Columns **/
+/* Create two columns that float next to each other */
 .column {
       float: left;
       margin: 0;
 }
 
+/* Clear floats after the columns */
+.row:after {
+      content: "";
+      display: table;
+      clear: both;
+}
+
+/* Responsive layout - stacks columns */
+@media screen and (max-width: 700px) {
+      .column {
+            width: 100%;
+      }
+}
+
+/** Column sets **/
+/* Hello */
 .left {
       width: 30%;
       padding: 12px 24px!important;
@@ -90,24 +102,17 @@ img {
       padding: 12px 24px!important;
 }
 
-/* Clear floats after the columns */
-.row:after {
-      content: "";
-      display: table;
-      clear: both;
+/* Intro */
+.left2 {
+      width: 40%;
+      padding: 12px 24px!important;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-      .column {
-            width: 100%;
-      }
+.right2 {
+      width: 50%;
+      padding: 12px 24px!important;
 }
 
-.row {
-      padding:0;
-      margin: 0;
-}
 
 /*========*/
 /* FOOTER */
@@ -124,144 +129,7 @@ img {
     	bottom: 0;
 	padding: 0;
     	margin: 0;
-    	/* ATTENTION! The following elements below 
-    	can be set to whatever your heart desires */
     	height: 40px; /* REMEMBER height = padding-bottom */
     	background: black;
     	color: white;
 }
-
-
-/*
-.footer {
-      display: block;
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      height: 40px;   /* Height of the footer 
-      left: 0;
-      right: 0;
-      background-color: black;
-      color: white;
-      text-align: center;
-      padding-top: 1em;
-      padding-bottom: 1em;
-}
-
-.stickyfoot {
-      position: relative;
-      display: block;
-      height: 100%;
-      bottom: 0;
-      margin: auto;
-      margin-left: auto;
-      margin-right: auto;
-}
-body > .container {
-    padding: 40px 15px 0;
-}
-
-.container .text-muted {
-    margin: 20px 0;
-}
-
-footer > .container {
-    padding-right: 15px;
-    padding-left: 15px;
-}*/
-
-
-/*.content {
-      box-sizing: border-box;
-      min-width: 700px;
-      max-width: 830px;
-      position: relative;
-      margin: auto;
-}
-
-
-/*=========*/
-/* FLEXBOX */
-/*=========*/
-
-/*.section1 {
-      margin: 15px;
-}
-
-.row {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      width: 100%
-}
-
-.column {
-      display: flex;
-      flex-direction: column;
-      flex-basis: 100%;
-      flex: 1;
-}
-
-.double-column {
-      display: flex;
-      flex-direction: column;
-      flex-basis: 100%;
-      flex: 2;     
-}
-
-.leftc {
-      background-color: pink;
-}
-
-.rightc {
-      background-color: grey;     
-}
-
-@media screen and (min-width: 600px) {
-      .column {
-            flex: 1
-      }
-  
-      .double-column {
-            flex: 2
-      }
-}
-/*
-.some-page-wrapper {
-  margin: 15px;
-  background-color: red;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-
-.blue-column {
-  background-color: blue;
-  height: 100px;
-}
-
-.green-column {
-  background-color: green;
-  height: 100px;
-}
-
-@media screen and (min-width: 800px) {
-  .column {
-    flex: 1
-  }
-
-  .double-column {
-    flex: 2
-  }
-}*/
