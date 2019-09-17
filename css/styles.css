@@ -44,6 +44,7 @@ html, body {
       font-family: 'Open Sans', sans-serif;
       color: white;
       background: black;
+      text-align: center;
 }
 
 .wrapper {
