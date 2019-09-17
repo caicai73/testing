@@ -91,12 +91,11 @@ img {
 @media screen and (max-width: 700px) {
       .main-container { margin: 0; }
 	
-      .column { width: 100%; float: none; }
+      .column { width: 100%; }
 	
       .left {
 	    width: 100%;
 	    position: relative;
-	    float: none;
 	    margin-left: auto; margin-right: auto;
       }
 
