@@ -88,6 +88,14 @@ img {
       .column {
             width: 100%;
       }
+	
+      .left {
+	    width: 100%;  
+      }
+
+      .right {
+      	    display: none;
+      }
 }
 
 /** Column sets **/
