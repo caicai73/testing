@@ -110,16 +110,13 @@ img {
 	    /*position: relative;
 	    margin-left: auto; margin-right: auto;*/
       }
-      
-      .title {
-	    position: relative;
-            margin-left: auto; margin-right: auto;
-	    padding-top: 5px;
+	
+      .hello {
+	    padding-left: 50px;    
       }
 	
       .content1 {
-	    padding-left: 30px;
-	    padding-right: 30px;
+	    padding-left: 50px;
       }
 	
       .mobimg {
@@ -159,8 +156,8 @@ img {
       padding: 12px 24px!important;
 }
 
-.title {
-      padding-top: 375px;
+.content2 {
+      color: #959595;
 }
 
 
