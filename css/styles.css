@@ -132,4 +132,7 @@ img {
     	height: 40px; /* REMEMBER height = padding-bottom */
     	background: black;
     	color: white;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
