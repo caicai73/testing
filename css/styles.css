@@ -92,7 +92,7 @@ img {
       .left {
 	    width: 100%;
 	    position: relative;
-	    float: center;
+	    float: none;
 	    margin-left: auto; margin-right: auto;
       }
 
