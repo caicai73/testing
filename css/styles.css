@@ -96,11 +96,24 @@ img {
 /*========*/
 
 .footer {
+    position: absolute;
+    width: 100%;
+	clear: both;
+    bottom: 0;
+	padding: 0;
+    margin: 0;
+    /* ATTENTION! The following elements below 
+    can be set to whatever your heart desires */
+    height: 40px; /* REMEMBER height = padding-bottom */
+    background: #333;
+}
+/*
+.footer {
       display: block;
       position: absolute;
       bottom: 0;
       width: 100%;
-      height: 40px;   /* Height of the footer */
+      height: 40px;   /* Height of the footer 
       left: 0;
       right: 0;
       background-color: black;
@@ -119,7 +132,6 @@ img {
       margin-left: auto;
       margin-right: auto;
 }
-/*
 body > .container {
     padding: 40px 15px 0;
 }
