@@ -185,3 +185,10 @@ img {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
+
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
