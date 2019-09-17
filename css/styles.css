@@ -93,7 +93,6 @@ img {
 
 /* Responsive layout - stacks columns */
 @media screen and (max-width: 700px) {
-      .main-container { max-width: 500px }
       .column { width: 100%; }
 	
       .left {
@@ -109,6 +108,7 @@ img {
 	
       .right2 {
      	    width: 100%;
+	    max-width: 500px;
 	    position: relative;
 	    float: none;
 	    margin-left: auto; margin-right: auto;
