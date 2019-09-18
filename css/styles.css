@@ -134,9 +134,9 @@ img {
 	    margin-left: auto; margin-right: auto;
       }
 	
-      /*.pronav {
-	    width:    
-      }*/
+      .pronav {
+	    width: 400px;    
+      }
 }
 
 /** Column sets **/
