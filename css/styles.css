@@ -139,7 +139,7 @@ img {
       }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 600px) {
       .madisont {
 	    width: 400px;      
       }
