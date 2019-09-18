@@ -139,6 +139,12 @@ img {
       }
 }
 
+@media screen and (min-width: 400px) {
+      .madisont {
+	    width: 400px;      
+      }
+}
+
 /** Column sets **/
 /* Hello */
 .left {
