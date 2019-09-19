@@ -105,11 +105,6 @@ img {
     padding: 12px 15px!important;
 }
 
-.right {
-    width: 45%;
-    padding: 12px 15px!important;
-}
-
 .content1 {
     color: #959595;
     padding-left: 50px;
@@ -121,14 +116,9 @@ img {
 
 
 /* Intro */
-.left2 {
+.right {
     width: 45%;
-    padding: 12px 24px!important;
-}
-
-.right2 {
-    width: 45%;
-    padding: 12px 24px!important;
+    padding: 12px 15px!important;
 }
 
 .content2 {
@@ -137,6 +127,10 @@ img {
 
 .introh {
 	font-size: 3.5em;
+}
+
+.intro2 {
+	padding-right: 50px;
 }
 
 
@@ -148,17 +142,28 @@ img {
     padding-top: 20px;
 }
 
-/*.pronav {
-    padding-left:260px;	
-}*/
+.pronav {
+    padding:0 100px;	
+}
+
+table.nava {
+	font-size:10px;
+	margin-bottom:50px;
+}
 
 td {
 	padding: 0 10px;	
 }
 
+
 .navv {
 	padding-left: 0px;
 }
+
+.navv2 {
+	padding-right: 0px
+}
+
 
 /* Madison */
 #control {
@@ -169,6 +174,7 @@ td {
 	padding: 0 50px;	
 }
 
+
 /****************************************/
 /** Responsive layout - stacks columns **/
 /****************************************/
@@ -177,12 +183,13 @@ td {
 	
     .column { 
     	float:none; 
-    	min-width: 300px; 
+    	min-width: 250px; 
     }
 	
     .left {
 	    position: relative;
 	    margin-left: auto; margin-right: auto;
+	    padding: 12px 20px!important;
     }
 
     #cont1 { display: none; }
@@ -192,6 +199,7 @@ td {
     .right {
 	    position: relative;
 	    margin-left: auto; margin-right: auto;
+	    padding: 12px 20px!important;
     }
 	
 	.hello { padding-left: 0px; }
@@ -205,10 +213,21 @@ td {
 	    position: relative;
 	    margin-left: auto; margin-right: auto;
     }
-	
-    .pronav { width: 400px; }
     
-    .introh { font-size: 2.7em; }
+    .introh { font-size: 2.3em; }
+    
+    .intro2 { padding-right: 0px; }
+    
+    .pronav { 
+    	padding:0;
+    	position: relative;
+    	margin-left: auto; margin-right: auto;
+    }
+    
+    table.nava {
+		text-align: center;	
+		margin-left: auto; margin-right: auto;
+	}
 }
 
 @media screen and (min-width: 600px) {
