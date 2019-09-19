@@ -60,22 +60,19 @@
       <!-- Projects section -->
       <div id="project" style="background:black;color:white">
         <img src="img/connector1.png" style="width:1000px;margin:0">
-        <h1 id="projects" class="openSans" style="font-size:11vw;font-weight:400;margin:auto">PROJECTS</h1>
-        <div class="openSans pronav" style="margin:auto">
-          <p ></p>
-          <table class="nava">
-          	<tr>
-          	  <th colspan="5" style="font-size:20px;text-align:left;font-weight:200">&mdash;&mdash;&mdash;PROJECTS</th>
-          	</tr>
-            <tr>
-              <td class="navv">MADISON</td>
-              <td>TS-2</td>
-              <td>XLM</td>
-              <td>LOGO DESIGN</td>
-              <td class="navv2">EXTRAS</td>
-            </tr>
-          </table>
-        </div>
+        <h1 id="projects" class="openSans" style="font-size:12vw;font-weight:400;margin:auto">PROJECTS</h1>
+        <table class="openSans nava">
+          <tr>
+        	<th colspan="5" style="font-size:20px;text-align:left;font-weight:200">&mdash;&mdash;&mdash;PROJECTS</th>
+          </tr>
+          <tr>
+            <td class="navv">MADISON</td>
+            <td>TS-2</td>
+            <td>XLM</td>
+            <td>LOGO DESIGN</td>
+            <td class="navv2">EXTRAS</td>
+          </tr>
+        </table>
         <img src="img/madison.png" style="width:1000px;margin:0">
       </div>
       
@@ -96,6 +93,22 @@
           <img src="img/Dynamic4.png" style="width:670px;float:right;margin:0">
         </div>
       </div>
+      
+	  <!-- Tilt Sensor TS-2 -->
+      <div class="row" id="ptilt" style="background:#ECB90F">
+        <div class="column" id="tiltsensor">
+          <img src="img/tiltsens.png" style="width:1000px;margin:0">
+          <h1 id="tilt1" style="font-size:3em;font-weight:900;margin:0">TILT SENSOR <br> TS-2</h1>
+          <p class="content3 tilt2">
+            This is a fully functional, final product.
+            The unit was developed for excavator designed to provide accurate measurements. on X - Y - Z axis. <br><br>
+            The tilt sensor is rugged and highly durable.<br><br>
+        	Designed improvement and implemented all visual elements, multiple capabilities of mounting options and brand new design look. <br><br>
+            Additional flange was also designed to accompanied with this unit.
+          </p>
+          <img src="img/Hero2.png" style="width:1000px;margin:0">
+        </div>
+      </div>
     </div>
 
     <!-- Footer -->
@@ -108,6 +121,11 @@
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  
+  <script>
+  $("#fake").click(function() {
+  	$("html").toggleClass("csstransforms");
+  });
+  </script>
+});
 </body>
 </html>
