@@ -28,25 +28,25 @@ body{
 */
 
 html, body {
-      margin: 0; 
-      padding: 0;  
-      height: 100%;
-      width: 100%;
-      overflow-x: hidden;
+    margin: 0; 
+	padding: 0;  
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .basicFontStyle {
-      font-family: 'Roboto', sans-serif;
-      font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 
 .openSans {
-      font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper {
-      min-height:100%; 
-      position: relative;
+    min-height:100%; 
+    position: relative;
 }
 
 .wrapper:after {
@@ -56,8 +56,8 @@ html, body {
 
 .main-container {
 	position: relative;
-      	min-height: 100%;
-      	max-width: 1000px;
+    min-height: 100%;
+    max-width: 1000px;
 	box-sizing: border-box;
 	margin-left: auto; margin-right: auto;
 	padding-bottom: 40px;
@@ -70,127 +70,121 @@ div {
 /** Images **/
 
 img {
-      display: block;
-      margin: auto;
-      max-width: 100%;
-      height: auto;
-      vertical-align: middle;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
 }
 
 .mobimg {
-      display: none;	
+    display: none;	
 }
 
 /** Responsive Columns **/
 /* Create two columns that float next to each other */
 .column {
-      float: left;
-      margin: 0;
+    float: left;
+    margin: 0;
 }
 
 /* Clear floats after the columns */
 .row:after {
-      content: "";
-      display: table;
-      clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* Responsive layout - stacks columns */
 @media screen and (max-width: 700px) {
-      .main-container { margin: 0; }
+    .main-container { margin: 0; }
 	
-      .column { width: 100%; max-width: 700px; }
+    .column { width: 100%; max-width: 700px; }
 	
-      .left {
-	    width: 95%;
+    .left {
+		width: 95%;
 	    position: relative;
 	    margin-left: auto; margin-right: auto;
-      }
+    }
 
-      #cont1 { display: none; }
+    #cont1 { display: none; }
 	
-      #cont2 { display: none; }
+    #cont2 { display: none; }
 	
-      .right {
-     	    width: 95%;
+    .right {
+     	width: 95%;
 	    max-width: 700px;
 	    /*position: relative;
 	    margin-left: auto; margin-right: auto;*/
-      }
+    }
 	
-      .hello {
-	    padding-left: 50px;    
-      }
+    .hello { padding-left: 50px; }
 	
-      .content1 {
-	    padding-left: 50px;
-      }
+    .content1 { padding-left: 50px; }
 	
-      .mobimg {
+    .mobimg {
 	    display: block;
 	    width: 100%;
 	    float: none;
 	    position: relative;
 	    margin-left: auto; margin-right: auto;
-      }
+    }
 	
-      .pronav {
-	    width: 400px;    
-      }
+    .pronav { width: 400px; }
 }
 
 @media screen and (min-width: 600px) {
-      .madisont {
+    .madisont {
 	    width: 300px;      
-      }
+    }
 }
 
 /** Column sets **/
 /* Hello */
 .left {
-      width: 45%;
-      padding: 12px 24px!important;
+    width: 45%;
+    padding: 12px 24px!important;
 }
 
 .right {
-      width: 45%;
-      padding: 12px 24px!important;
+    width: 45%;
+    padding: 12px 24px!important;
 }
 
 .content1 {
-      color: #959595;
-      padding-left: 50px;
+    color: #959595;
+    padding-left: 50px;
 }
 
 .hello {
-      padding-left: 50px;    
+    padding-left: 50px;    
 }
 
 /* Intro */
 .left2 {
-      width: 45%;
-      padding: 12px 24px!important;
+    width: 45%;
+    padding: 12px 24px!important;
 }
 
 .right2 {
-      width: 45%;
-      padding: 12px 24px!important;
+    width: 45%;
+    padding: 12px 24px!important;
 }
 
 .content2 {
-      color: #959595;
+    color: #959595;
 }
 
 /* Projects */
 #projects {
-      color: white;
-      background: black;
-      text-align: center;
-      padding-top: 20px;
+    color: white;
+    background: black;
+    text-align: center;
+    padding-top: 20px;
 }
 
 /*.pronav {
-      padding-left:260px;	
+    padding-left:260px;	
 }*/
 
 td {
@@ -216,23 +210,27 @@ td {
 }
 
 .stickyfooter {
-    	position: absolute;
+    position: absolute;
    	width: 100%;
 	clear: both;
-    	bottom: 0;
+    bottom: 0;
 	padding: 0;
-    	margin: 0;
-    	height: 40px; /* REMEMBER height = padding-bottom */
-    	background: black;
-    	color: white;
+    margin: 0;
+	height: 40px; /* REMEMBER height = padding-bottom */
+	background: black;
+    color: white;
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
+#foot {
+	padding-bottom: 5px;
+}
+
 
 /* {
-  background: #000 !important;
-  color: #0f0 !important;
-  outline: solid #f00 1px !important;
+  	background: #000 !important;
+  	color: #0f0 !important;
+  	outline: solid #f00 1px !important;
 }*/
