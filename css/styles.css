@@ -95,60 +95,19 @@ img {
     clear: both;
 }
 
-/* Responsive layout - stacks columns */
-@media screen and (max-width: 700px) {
-    .main-container { margin: 0; }
-	
-    .column { width: 100%; max-width: 700px; }
-	
-    .left {
-		width: 95%;
-	    position: relative;
-	    margin-left: auto; margin-right: auto;
-    }
-
-    #cont1 { display: none; }
-	
-    #cont2 { display: none; }
-	
-    .right {
-     	width: 95%;
-	    max-width: 700px;
-	    /*position: relative;
-	    margin-left: auto; margin-right: auto;*/
-    }
-	
-    .hello { padding-left: 50px; }
-	
-    .content1 { padding-left: 50px; }
-	
-    .mobimg {
-	    display: block;
-	    width: 100%;
-	    float: none;
-	    position: relative;
-	    margin-left: auto; margin-right: auto;
-    }
-	
-    .pronav { width: 400px; }
-}
-
-@media screen and (min-width: 600px) {
-    .madisont {
-	    width: 300px;      
-    }
-}
-
+/*****************/
 /** Column sets **/
+/*****************/
+
 /* Hello */
 .left {
     width: 45%;
-    padding: 12px 24px!important;
+    padding: 12px 15px!important;
 }
 
 .right {
     width: 45%;
-    padding: 12px 24px!important;
+    padding: 12px 15px!important;
 }
 
 .content1 {
@@ -159,6 +118,7 @@ img {
 .hello {
     padding-left: 50px;    
 }
+
 
 /* Intro */
 .left2 {
@@ -174,6 +134,11 @@ img {
 .content2 {
     color: #959595;
 }
+
+.introh {
+	font-size: 3.5em;
+}
+
 
 /* Projects */
 #projects {
@@ -196,8 +161,65 @@ td {
 }
 
 /* Madison */
+#control {
+	padding: 0 50px;
+}
+
 .madisont {
 	padding: 0 50px;	
+}
+
+/****************************************/
+/** Responsive layout - stacks columns **/
+/****************************************/
+@media screen and (max-width: 700px) {
+    .main-container { margin: 0; }
+	
+    .column { 
+    	float:none; 
+    	min-width: 300px; 
+    }
+	
+    .left {
+	    position: relative;
+	    margin-left: auto; margin-right: auto;
+    }
+
+    #cont1 { display: none; }
+	
+    #cont2 { display: none; }
+	
+    .right {
+	    position: relative;
+	    margin-left: auto; margin-right: auto;
+    }
+	
+	.hello { padding-left: 0px; }
+
+    .content1 { padding-left: 0px; }
+	
+    .mobimg {
+	    display: block;
+	    width: 100%;
+	    float: none;
+	    position: relative;
+	    margin-left: auto; margin-right: auto;
+    }
+	
+    .pronav { width: 400px; }
+    
+    .introh { font-size: 2.7em; }
+}
+
+@media screen and (min-width: 600px) {
+    .madisont {
+	    width: 300px;      
+    }
+    
+    .content1 {
+		width: 220px;
+    }
+
 }
 
 
@@ -216,7 +238,7 @@ td {
     bottom: 0;
 	padding: 0;
     margin: 0;
-	height: 40px; /* REMEMBER height = padding-bottom */
+	min-height: 40px; /* REMEMBER height = padding-bottom */
 	background: black;
     color: white;
 	text-align: center;
@@ -225,7 +247,7 @@ td {
 }
 
 #foot {
-	padding-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 
