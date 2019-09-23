@@ -48,7 +48,7 @@ html, body {
     max-width: 1000px;
 	box-sizing: border-box;
 	margin-left: auto; margin-right: auto;
-	padding-bottom: 40px;
+	padding-bottom: 30px;
 }
 
 div {
@@ -185,6 +185,67 @@ td {
 	padding: 0 50px;
 }
 
+
+/* Logo Design */
+#logod1, .logod2 {
+	padding: 0 50px;
+}
+
+.logod3 {
+	padding: 0 50px;
+}
+
+.logod4 {
+	padding: 0 30px;
+}
+
+#petit {
+	padding: 0 50px;
+}
+
+.petitleft {
+	width: 45%;
+    padding: 12px 15px!important;
+}
+
+.petitright {
+	width: 45%;
+    padding: 12px 15px!important;
+}
+
+.ozy {
+	padding: 50px 50px 0!important;
+	position: relative;
+	width: 90%;
+}
+
+.ozy2 {
+	padding: 0 50px;
+}
+
+.ozy3 {
+	position: absolute;
+  	top: 108px;
+  	right: 55px;
+}
+
+.ozy4 { display: none; }
+
+
+/* Extras */
+#extras1 {
+	padding: 0 50px 25px!important;
+}
+
+.art1, .art2{
+	background: white;
+	text-align: center;
+	position: relative;
+	margin-left: auto; margin-right: auto;
+	width:70%;
+}
+
+
 /****************************************/
 /** Responsive layout - stacks columns **/
 /****************************************/
@@ -234,7 +295,48 @@ td {
 		text-align: center;	
 		margin-left: auto; margin-right: auto;
 	}
+	
+	.logod4 {
+		padding: 0 50px;
+	}
+	
+	.petitleft {
+		position: relative;
+	    margin-left: auto; margin-right: auto;
+	    width: 90%;
+	}
+	
+	.petitright {
+		position: relative;
+		margin-left: auto; margin-right: auto;
+		padding: 0 30px!important;
+		overflow-wrap: break-word;
+		width: 70%;
+	}
+	
+	.ozy {
+		position: relative;
+		margin-left: auto; margin-right: auto;
+		width: 70%;
+	}
+	
+	.ozy3 { display: none; }
+	
+	.ozy4 { 
+		display: block;
+		padding: 12px 0!important;
+		position: relative;
+		margin-left: auto; margin-right: auto;
+	}
 
+}
+
+@media (max-width: 768px) {
+	.ozy3 {
+  		top: 108px;
+  		right: 35px;
+  		max-width: 365px;
+	}
 }
 
 @media screen and (min-width: 600px) {
@@ -253,6 +355,15 @@ td {
     .auxi3 {
     	width: 300px;
     }
+    
+    .logod3 {
+    	width: 300px;
+    }
+    
+    .ozy3 {
+    	width: 450px;
+    }
+
 
 }
 
